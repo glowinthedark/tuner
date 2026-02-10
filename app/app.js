@@ -15,7 +15,7 @@ const Application = function () {
 
 Application.prototype.initA4 = function () {
   this.$a4 = document.querySelector(".a4 span");
-  this.a4 = parseInt(localStorage.getItem("a4")) || 440;
+  this.a4 = parseInt(localStorage.getItem("a4")) || 432;
   this.$a4.innerHTML = this.a4;
 };
 
